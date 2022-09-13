@@ -1,0 +1,43 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "vetur.validation.style": false,
+
+  "eslint.validate": ["vue", "javascript", "javascriptreact"],
+  "vetur.validation.template": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.eol": "\n"
+}
